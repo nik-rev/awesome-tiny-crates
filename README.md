@@ -2,15 +2,10 @@
 
 Rust has wonderful crates like `serde`, `tokio`, `axum`, `clap` and many others.
 
-Everyone talks about these crates, and everyone knows them. But there are thousands of small utility crates that just do 1 thing well.
+Everyone talks about these crates, and everyone knows them. But there are thousands of small utility crates that just do 1 thing well,
+but most aren't aware of them. Let's change that!
 
-A lot of these are essentially "complete", the have no more features to add. They just work. They solve someone's use-case.
-
-This list contains a bunch of these crates, and most of them remain in the shadow - people don't really talk about these crates as much,
-**but they can be so good!**.
-
-This list focuses on crates in the [Rust patterns](https://lib.rs/rust-patterns) category, which contains code that
-usually changes the way you write Rust itself. Rather than, for instance, implementing some kind of algorithm.
+The list focuses on crates that fit in the [Rust patterns](https://lib.rs/rust-patterns) category, hopefully you'll try some of these out!
 
 # Non-empty collections
 
