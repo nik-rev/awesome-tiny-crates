@@ -76,10 +76,10 @@ struct User;
 Ever wrote a test with a bunch of calls to `assert!` - and the test fails. But only the first panic is shown! Oh no!
 You now need to manually re-run the test and comment out the first `assert!` to get information about the 2nd one.
 
-This experience isn't the best. The [`assert2`](https://lib.rs/crates/assert2) crate is here to save us all, it provides the `check!` macro
-which is like `assert!` but it doesn't fail the test immediately. Instead, all failures of `check!` are collected and then reported all at once!
+This experience isn't the best. The [`assert2`](https://lib.rs/crates/assert2) crate is here to save us all, it provides the `check!` macro. 
+It is like `assert!` but it doesn't fail the test immediately. Instead, all failures of `check!` are collected and then reported all at once!
 
-The assertion macros in this crate provide more descriptive and helpful error messages. **🌈 It also have color! 🌈**,
+The assertion macros in this crate provide more descriptive and helpful error messages, **🌈 with color! 🌈**,
 and detailed information about what exactly failed!
 
 ```rust
