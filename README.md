@@ -206,7 +206,9 @@ pub impl<T, E> Result<T, E> {
 # Bounded vector
 
 While [non-empty](#non-empty-collections) collections are useful, sometimes we have a list of elements that can only ever be 2 or more.
-Or, between 5 and 10. The [`bounded-vec`](https://lib.rs/crates/deranged) crate provides exactly this type - `BoundedVec<u8, 2, 4>` that holds 2, 3 or 4 `u8`s:
+Or, between 5 and 10. The [`bounded-vec`](https://lib.rs/crates/deranged) crate provides exactly this type.
+
+For example you can have a `BoundedVec<u8, 2, 4>` that holds 2, 3 or 4 bytes:
 
 ```rust
 let data: BoundedVec<u8, 2, 4> = [1u8, 2].into();
