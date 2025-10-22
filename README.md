@@ -9,7 +9,7 @@ The list focuses on crates that fit in the [Rust Patterns](https://lib.rs/rust-p
 # Non-empty collections
 
 I like pushing invariants into the type system, and make invalid states impossible to represent.
-That's one of the things that make Rust fun! (although, sometimes I can [overdo](https://arhan.sh/blog/the-generativity-pattern-in-rust/) it 👀)
+That's one of the things that make Rust fun!
 
 I've long searched for a good crate that provides non-empty collections, notably `Vec`.
 There is [`nonempty`](https://lib.rs/crates/nonempty), which is the most popular, but it uses a representation like this:
