@@ -299,7 +299,7 @@ fn main() {
 }
 ```
 
-What if we want the best of both world? We want:
+What if we want the best of both worlds? We want:
 
 - Gets formatted by rustfmt to match indentation levels of surrounding code
 - It is readable, without syntactic noise
