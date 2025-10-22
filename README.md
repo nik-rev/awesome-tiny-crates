@@ -332,7 +332,7 @@ These replacements have features like:
 How often do you have a list of strings like `["a", "b", "c"]` and want to join them to become `"a, b and c"`, or `"a, b, or c"`?
 
 The [`literator`](https://lib.rs/crates/literator) crate provides an extension trait for Iterators that formats the iterator nicely for you,
-as well as many other utilities for working with iterator of strings.
+as well as many other utilities for working with iterators of strings.
 
 ```rust
 let favorite_things = ["raindrops", "roses", "whiskers", "kittens"];
