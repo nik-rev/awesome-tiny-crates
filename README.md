@@ -29,7 +29,7 @@ Sure, this makes it literally impossible to construct a non-empty `Vec`, **but a
 - The only advantage of this layout is that you can store 1 element without allocation.
   Cool, but I've personally never needed that.
 
-That's when I discovered [`mitsein`](https://lib.rs/crates/mitsein): This library:
+That's when I discovered [`mitsein`](https://lib.rs/crates/mitsein). This library:
 
 - Contains dozens of non-empty collections: `Vec`, `Hash`, ...
 - Includes feature flags for popular crates, like `indexmap`, `serde`, `smallvec`, ...
