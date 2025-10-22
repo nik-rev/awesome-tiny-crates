@@ -326,3 +326,16 @@ These replacements have features like:
 - `Total`, `Real` and `ExtendedReal` can be hashed and have total ordering
 - These types can either return a `Result` or panic when they enter an illegal state!
 - All the great methods you'll find on standard library's floats are found here, too
+
+# Format iterator of strings
+
+How often do you have a list of strings like `["a", "b", "c"]` and want to join them to become `"a, b and c"`, or `"a, b, or c"`?
+
+The [`literator`](https://lib.rs/crates/literator) crate provides an extension trait for Iterators that formats the iterator nicely for you,
+as well as many other utilities for working with iterator of strings.
+
+```rust
+let favorite_things = ["raindrops", "roses", "whiskers", "kittens"];
+let message = favorite_things.iter().capitalize_first().oxford_join_and().to_string();
+assert_eq!(message, "Raindrops, roses, whiskers, and kittens");
+```
