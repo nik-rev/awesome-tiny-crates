@@ -60,14 +60,14 @@ Say no more. With [`derive_aliases`](https://lib.rs/crates/derive_aliases), you 
 bunch of derives, replacing code like this:
 
 ```rust
-#[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Copy, Clone)]
+#[derive(Debug, ..Ord, ..Copy)]
 struct User;
 ```
 
 With this:
 
 ```rust
-#[derive(Debug, ..Ord, ..Copy)]
+#[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Copy, Clone)]
 struct User;
 ```
 
