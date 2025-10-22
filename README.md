@@ -2,8 +2,7 @@
 
 Rust has a very rich ecosystem, with fantastic crates like `serde`, `tokio`, `axum`, `clap` and many others.
 
-Everyone talks about these crates, and everyone knows them. But there are thousands of small utility crates that just do 1 thing well,
-but most aren't aware of them. Let's change that!
+But there are quite a lot of crates that usually don't get much mention, but nevertheless they are pretty cool!
 
 The list focuses on crates that fit in the [Rust Patterns](https://lib.rs/rust-patterns) category, hopefully you'll try some of these out!
 
