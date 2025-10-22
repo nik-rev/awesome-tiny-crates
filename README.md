@@ -1,6 +1,6 @@
 # Awesome, tiny crates!
 
-Rust has wonderful crates like `serde`, `tokio`, `axum`, `clap` and many others.
+Rust has a very rich ecosystem, with fantastic crates like `serde`, `tokio`, `axum`, `clap` and many others.
 
 Everyone talks about these crates, and everyone knows them. But there are thousands of small utility crates that just do 1 thing well,
 but most aren't aware of them. Let's change that!
