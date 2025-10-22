@@ -103,7 +103,7 @@ Where have you been my whole life, `assert2`??
 
 # Configuration aliases
 
-The [`cfg_aliases!`](https://lib.rs/crates/assert2) crate exports a macro that you invoke inside of
+The [`cfg_aliases!`](https://lib.rs/crates/cfg_aliases) crate exports a macro that you invoke inside of
 the [`build.rs`](https://doc.rust-lang.org/cargo/reference/build-scripts.html) file.
 It allows you to have nice, rememberable names for configuration predicates.
 
@@ -205,7 +205,7 @@ pub impl<T, E> Result<T, E> {
 # Bounded vector
 
 While [non-empty](#non-empty-collections) collections are useful, sometimes we have a list of elements that can only ever be 2 or more.
-Or, between 5 and 10. The [`bounded-vec`](https://lib.rs/crates/deranged) crate provides exactly this type.
+Or, between 5 and 10. The [`bounded-vec`](https://lib.rs/crates/bounded-vec) crate provides exactly this type.
 
 For example you can have a `BoundedVec<u8, 2, 4>` that holds 2, 3 or 4 bytes:
 
