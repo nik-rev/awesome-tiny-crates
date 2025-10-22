@@ -187,7 +187,7 @@ impl<T, E> ResultExt<T, E> for Result<T, E> {
 Needless to say, it's **really** verbose.
 You have to repeat the signature **twice** (😱), and since generics are usually involved, it's common to amount to a lot of boilerplate.
 
-[`easy-ext`](https://lib.rs/crates/easy-ext) promises to cut down this boilerplate in **half**:
+[`easy-ext`](https://lib.rs/crates/easy-ext) cut down this boilerplate in **half**:
 
 ```rust
 use easy_ext::ext;
