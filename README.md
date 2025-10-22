@@ -271,7 +271,7 @@ pub enum DataStoreError {
 
 # Ergonomic multi-line string literals
 
-Writing multi-line string literals in rust can be... a bit of a pain!o
+Writing multi-line string literals in rust can be... a bit of a pain!
 
 On one hand, you have to sacrifice on indentation:
 
