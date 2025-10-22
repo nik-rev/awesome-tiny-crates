@@ -317,3 +317,13 @@ fn main() {
     );
 }
 ```
+
+# Floating-point numbers that behave
+
+The crate [`decorum`](https://lib.rs/crates/decorum) provides drop-in replacements for the standard library types.
+These replacements have features like:
+
+- `Real`s can't be NaN. `ExtendedReal`s can't be NaN or infinite
+- `Total`, `Real` and `ExtendedReal` can be hashed and have total ordering
+- These types can either return a `Result` or panic when they enter an illegal state!
+- All the great methods you'll find on standard library's floats are found here, too
