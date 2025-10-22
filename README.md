@@ -1,5 +1,7 @@
 # Awesome, tiny crates!
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
 Rust has wonderful crates like `serde`, `tokio`, `axum`, `clap` and many others.
 
 Everyone talks about these crates, and everyone knows them. But there are thousands of small utility crates that just do 1 thing well,
